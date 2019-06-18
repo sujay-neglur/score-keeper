@@ -3,7 +3,7 @@ import {Meteor} from 'meteor/meteor';
 
 
 
-Meteor.startup(function(){
+Meteor.startup(() => {
   // Players.insert({
   //   name:'Andrew',
   //   score:3
